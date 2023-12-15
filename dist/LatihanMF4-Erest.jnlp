@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LatihanMF4-Erest.jnlp">
+  <information>
+    <title>LatihanMF4-Erest</title>
+    <vendor>Blizzard</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LatihanMF4-Erest.jar" size="6000" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="latihanmf4.erest.Main_Class.LatihanMF4"  name="LatihanMF4-Erest" />
+  <update check="always"/>
+</jnlp>
