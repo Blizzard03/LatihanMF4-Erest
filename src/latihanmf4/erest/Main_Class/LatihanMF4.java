@@ -38,6 +38,8 @@ public class LatihanMF4 extends Application {
 );
         stage.setScene(scene);
         stage.setTitle("Main Menu");
+        stage.setResizable(false);
+        stage.setIconified(false);
         stage.show();
 
     }
