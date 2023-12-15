@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="latihanmf4.erest.Controller.FXMLPenghitungUpahController">
+<TabPane fx:id="Penghitung_Upah" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="latihanmf4.erest.Controller.FXMLPenghitungUpahController">
   <tabs>
     <Tab fx:id="inputtab" text="Input">
       <content>
@@ -20,9 +20,9 @@
                   <Label layoutX="15.0" layoutY="103.0" text="Jabatan" />
                   <Label layoutX="15.0" layoutY="177.0" text="Masuk" />
                   <TextField fx:id="txtpegawai" layoutX="13.0" layoutY="57.0" />
-                  <CheckBox fx:id="direkturrank" layoutX="14.0" layoutY="133.0" mnemonicParsing="false" text="Direktur" />
-                  <CheckBox fx:id="managerrank" layoutX="98.0" layoutY="133.0" mnemonicParsing="false" text="Manager" />
-                  <CheckBox layoutX="193.0" layoutY="133.0" mnemonicParsing="false" text="Staff" />
+                  <CheckBox fx:id="Managarrrank" layoutX="14.0" layoutY="133.0" mnemonicParsing="false" text="Manager" />
+                  <CheckBox fx:id="Supervisorrank" layoutX="98.0" layoutY="133.0" mnemonicParsing="false" text="Supervisor" />
+                  <CheckBox fx:id="staffrank" layoutX="193.0" layoutY="133.0" mnemonicParsing="false" text="Staff" />
                   <TextField fx:id="txthari" layoutX="14.0" layoutY="201.0" />
                   <Button fx:id="hitungtn" layoutX="322.0" layoutY="29.0" mnemonicParsing="false" onAction="#hitungklik" prefHeight="118.0" prefWidth="129.0" text="Hitung" />
                   <Separator layoutX="297.0" layoutY="3.0" orientation="VERTICAL" prefHeight="371.0" prefWidth="5.0" />
