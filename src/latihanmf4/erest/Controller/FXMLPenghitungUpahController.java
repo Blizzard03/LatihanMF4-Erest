@@ -154,7 +154,7 @@ public class FXMLPenghitungUpahController implements Initializable {
         alt.showAndWait();
         if (alt.getResult().equals(ButtonType.YES)) {
             txtpegawai.setText("");
-            staffrank.setText("");
+            staffrank.setSelected(false);
             Supervisorrank.setSelected(false);
             Managarrrank.setSelected(false);
             txthari.setText("");
@@ -173,6 +173,11 @@ public class FXMLPenghitungUpahController implements Initializable {
         Pajak.setText("Erest");
         Gajiber.setText("Erest");
         Penghitung_Upah.getSelectionModel().select(0);
+        txtpegawai.setText("");
+        staffrank.setSelected(false);
+        Supervisorrank.setSelected(false);
+        Managarrrank.setSelected(false);
+        txthari.setText("");
         output.setDisable(true);
         inputtab.setDisable(false);
     }
